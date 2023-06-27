@@ -1,10 +1,12 @@
 {
-  "name": "date-fns-buddhist-adapter",
-  "version": "1.0.0",
+  "name": "@ascendcorp/date-fns-buddhist-adapter",
+  "repository": "https://github.com/ascendcorp/date-fns-buddhist-adapter.git",
+  "version": "1.0.2",
   "description": "date-fns adapter with Buddhist years functionality",
   "main": "src/index.ts",
   "scripts": {
     "test": "jest",
+    "build": "tsc",
     "postinstall": "husky install",
     "lint": "prettier --check \"**/*.{md,yml,json}\" && eslint .",
     "typecheck": "tsc --noEmit"

@@ -3,7 +3,7 @@
 ## Get Started
 
 ```shell
-  pnpm add ..TBA..
+  pnpm add @ascendcorp/date-fns-buddhist-adapter
 ```
 
 ## Contribute
