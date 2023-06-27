@@ -10,6 +10,7 @@
 
 ```shell
   pnpm install
+  pnpm prepare
 ```
 
 Then create a pull request
