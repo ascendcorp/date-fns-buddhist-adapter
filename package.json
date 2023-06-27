@@ -1,0 +1,49 @@
+{
+  "name": "date-fns-buddhist-adapter",
+  "version": "1.0.0",
+  "description": "date-fns adapter with Buddhist years functionality",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "postinstall": "husky install",
+    "lint": "prettier --check \"**/*.{md,yml,json}\" && eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "date-fns",
+    "date-io",
+    "buddhist"
+  ],
+  "author": "Ascendcorp",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.16.0",
+    "pnpm": ">=8.6.0"
+  },
+  "dependencies": {
+    "@date-io/date-fns": "2.16.0",
+    "@mui/material": "5.13.6",
+    "date-fns": "2.30.0",
+    "react": "18.2.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node-lts": "18.12.2",
+    "@types/jest": "29.5.2",
+    "@types/node": "20.3.2",
+    "@types/react": "18.2.14",
+    "@typescript-eslint/eslint-plugin": "5.60.1",
+    "@typescript-eslint/parser": "5.60.1",
+    "eslint": "8.43.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-import-resolver-typescript": "3.5.5",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jest": "27.2.2",
+    "eslint-plugin-prettier": "4.2.1",
+    "husky": "8.0.3",
+    "jest": "29.5.0",
+    "prettier": "2.8.8",
+    "ts-jest": "29.1.0",
+    "ts-node": "10.9.1",
+    "typescript": "5.1.3"
+  }
+}

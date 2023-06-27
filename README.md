@@ -1,2 +1,15 @@
 # date-fns-buddhist-adapter
-date-fns adapter with Buddhist years functionality
+
+## Get Started
+
+```shell
+  pnpm add ..TBA..
+```
+
+## Contribute
+
+```shell
+  pnpm install
+```
+
+Then create a pull request

@@ -1,0 +1,32 @@
+{
+  "env": {
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint/eslint-plugin", "import"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:jest/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts"]
+    },
+    "import/resolver": {
+      "typescript": true,
+      "node": true
+    }
+  },
+  "rules": {
+    "eqeqeq": "error",
+    "no-constant-binary-expression": "error",
+    "import/no-cycle": "warn",
+    "import/no-duplicates": "warn",
+    "prettier/prettier": "warn"
+  },
+  "ignorePatterns": ["dist"]
+}
