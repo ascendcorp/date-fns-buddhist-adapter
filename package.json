@@ -1,10 +1,10 @@
 {
-  "name": "@ascendcorp/date-fns-buddhist-adapter",
-  "repository": "https://github.com/ascendcorp/date-fns-buddhist-adapter.git",
+  "name": "date-fns-buddhist-adapter",
   "version": "1.0.3",
   "description": "date-fns adapter with Buddhist years functionality",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "private": false,
   "scripts": {
     "test": "jest",
     "build": "tsc",
@@ -17,7 +17,7 @@
     "date-io",
     "buddhist"
   ],
-  "author": "Ascendcorp",
+  "author": "ipiranhaa",
   "license": "MIT",
   "engines": {
     "node": ">=8.16.0",
