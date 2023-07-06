@@ -11,12 +11,17 @@
     "build": "tsc",
     "prepare": "husky install",
     "lint": "prettier --check \"**/*.{md,yml,json}\" && eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "example:dev": "cd example && pnpm dev"
   },
   "keywords": [
+    "date",
     "date-fns",
     "date-io",
-    "buddhist"
+    "buddhist",
+    "date-picker",
+    "mui-x",
+    "react"
   ],
   "author": "Ascendcorp",
   "license": "MIT",

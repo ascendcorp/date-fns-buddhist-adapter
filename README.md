@@ -1,5 +1,7 @@
 # date-fns-buddhist-adapter
 
+date-fns adapter with Buddhist years functionality compatible with [MUI-X](https://github.com/mui/mui-x) date-picker.
+
 ## Get Started
 
 ```shell
@@ -8,17 +10,19 @@
 
 ## Contribute
 
+First, You need to prepare development environment
+
+Required [Node Version Manager](https://github.com/nvm-sh/nvm) package to align NodeJS version.
+
 ```shell
   pnpm install
   pnpm prepare
-  pnpm test
+  nvm use
 ```
 
-Then create a pull request
+Finally, create a pull request for the Ascendcorp team.
 
-## Reference
-
-Special thanks
+## Special Thanks
 
 1. [mui-x](https://github.com/mui/mui-x)
 2. [date-fns-be](https://github.com/tarzui/date-fns-be)
