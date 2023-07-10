@@ -64,10 +64,6 @@ describe('AdapterDateFns', () => {
 
     it('should formatting correctly', () => {
       const expectDate = (format: keyof AdapterFormats, expected: string) => {
-        console.log(
-          '🚀 ~ file: index.spec.ts:67 ~ expectDate ~ format:',
-          format,
-        )
         expect(adapter.format(date, format)).toEqual(expected)
       }
 

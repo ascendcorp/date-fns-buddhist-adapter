@@ -177,7 +177,7 @@ export default class AdapterDateFns
 
   constructor({ locale, formats }: AdapterOptions<DateFnsLocale, never> = {}) {
     this.locale = locale
-    this.formats = { ...defaultFormats, ...formats }
+    this.formats = { ...defaultFormats, ...formats, meridiem: '' }
   }
 
   // Note: date-fns input types are more lenient than this adapter, so we need to expose our more
